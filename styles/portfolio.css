@@ -1,0 +1,201 @@
+.nav-bar {
+    display: flex;
+    height: 100;
+}
+/* from .nav-bar to h1, inclusing the footer similar codes to styles.css */
+.navbar-left{
+flex-basis: 20%;
+background:rgb(240, 240, 243);
+display: grid;
+}
+
+.navbar-left ul{
+    float: left;
+    padding: 35px 40px 10px 40px;
+}
+
+.navbar-left ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40%;
+}
+
+.navbar-left ul li a {
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-left ul li a:hover {
+color: blue;
+}
+
+.navbar-left ul li a:hover:before, .navbar-right ul li a:hover:after{
+    opacity: 1;
+    height: 3px;
+    width: 100%;
+}
+
+.navbar-right{
+flex-basis: 80%;
+background:rgb(240, 240, 243);
+display: grid;
+}
+
+.navbar-right ul{
+    float: right;
+    padding: 35px 40px 10px 40px;
+}
+
+.navbar-right ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navbar-right ul li a {
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-right ul li a:hover {
+color: blue;
+}
+
+.navbar-right ul li a:hover:before, .navbar-right ul li a:hover:after{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+a{
+    color: lightcoral;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    display: block;
+    color: lightcoral;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0,0, 0.1);
+}
+
+p{
+    color: #fff;
+    text-align: left;
+}
+.container {
+    
+    margin: 2rem auto; 
+
+  }
+
+ .gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 5vw);
+  grid-gap: 15px;
+    }
+
+.gallery_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*gallery-img and .gallery items, text, help was gotten from both class challenge and https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/*/
+  .gallery-item {
+      border-radius: 5px;
+      box-shadow: 0 5px 20px rgba(0, 0,0, 0.5);
+      transition: all .3s;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+}
+.gallery_item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+ .gallery_item-2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+ }
+.gallery_item-3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery_item-4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.gallery_item-5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.gallery_item-6{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.middle {
+    transition: .3 ease;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50, -50);
+    text-align: center;
+    z-index: 999;
+
+    }
+    
+    .gallery-item:hover  {
+        filter: grayscale(1);
+    }
+    
+    .gallery-item:hover .middle {
+        opacity: 5;
+        text-align: center;
+    }
+    
+    .gallery-item:hover {
+        box-shadow: 0 10px 20px rgba(92, 26, 26, 0.8);
+    }
+    
+    .text {
+        color: white;
+        font-size: 1.5em;
+        padding: 16px 32px;
+        font-family:'Yeon Sung', cursive;
+    }
+    
+footer {
+        position: fixed;
+        bottom: 0;
+        margin-bottom:0;
+        color: lightyellow;
+        background-color:lightcoral;
+        width: 100%;
+        height: auto;
+        float: right;
+        text-align: left;
+        font-size: 1.5em;
+ }

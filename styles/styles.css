@@ -1,0 +1,138 @@
+html, body {
+    margin: 0%;
+    font-family: 'Yeon Sung', cursive;
+    background: ghostwhite;
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(../images/sky_backgroundpic.jpg);
+    background-size: cover;
+}
+
+
+/* i got the font- family from font-family: 'Yeon Sung', cursive;  */
+
+img {
+    margin-top: 25px;
+    border-style: none;
+    border-radius: 25%;
+    filter: grayscale(0);
+    width: 15vw;
+    transform: rotate(-90deg);
+}
+
+/* tranforming my pics code was gotten from https://developer.mozilla.org/en-US/docs/Web/CSS/transform*/
+
+.nav-bar {
+    display: flex;
+    height: 20;
+}
+
+.navbar-left{
+flex-basis: 20%;
+background:ghostwhite;
+display: grid;
+}
+
+.navbar-left ul{
+    float: right;
+    padding: 35px 40px 10px 40px;
+}
+
+.navbar-left ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navbar-left ul li a {
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-left ul li a:hover {
+color: blue;
+}
+
+.navbar-left ul li a:hover:before, .navbar-right ul li a:hover:after{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+.navbar-right{
+flex-basis: 80%;
+background:ghostwhite;
+display: grid;
+
+}
+
+.navbar-right ul{
+    float: right;
+    padding: 35px 40px 10px 40px;
+}
+
+.navbar-right ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navbar-right ul li a {
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-right ul li a:hover {
+color: blue;
+}
+
+.navbar-right ul li a:hover:before, .navbar-right ul li a:hover:after{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+
+h1 {
+    color: lightcyan;
+}
+
+h3{
+    color: lightyellow;
+}
+
+p {
+    color:  lightcyan;
+    font-size: 1.5em;
+}
+
+
+a{
+    color: lightcoral;
+    text-decoration: none;
+}
+
+
+@stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+ .media {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate{-53%, -50%};
+}
+
+.footer {
+    position:fixed;
+    bottom: 0;
+    margin-bottom:0;
+    color: lightyellow;
+    background-color:lightcoral;
+    width: 100%;
+    height: auto;
+    float: right;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+
