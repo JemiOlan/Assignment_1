@@ -163,7 +163,7 @@ p{
     left: 0;
     transform: translate(-50, -50);
     text-align: center;
-    z-index: 999;
+    z-index: 1;
 
     }
     
