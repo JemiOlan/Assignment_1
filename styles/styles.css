@@ -114,20 +114,20 @@ a{
 }
 
 
-@stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+/*
  .media {
     position: relative;
-    top: 40%;
-    left: 50%;
+    opacity: 2;
     transform: translate{-53%, -50%};
-}
+  
+}*/
 
 .footer {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     margin-bottom:0;
-    color: lightyellow;
-    background-color:lightcoral;
+    color: rgb(36, 16, 16);
+    background-color: rgb(192, 179, 179);
     width: 100%;
     height: auto;
     float: right;

@@ -153,13 +153,23 @@ h3{
     font-weight: 300;
     color: darkolivegreen;
 }
+.text-center {
+    text-align: center;
+}
 
-.left-row {}
+.left-row {
+    width: 45%;
+    float: left;
+}
 
-.col-right{}
+.col-right{
+    width: 30%;
+    float: right;
+    margin-bottom: 2em;
+}
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     margin-bottom:0;
     color: lightyellow;

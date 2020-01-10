@@ -81,8 +81,8 @@ hr {
     border-top: 1px solid rgba(0, 0,0, 0.1);
 }
 
-p{
-    color: #fff;
+.text{
+    color: white;
     text-align: left;
 }
 .container {
@@ -93,8 +93,8 @@ p{
 
  .gallery {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 5vw);
+  grid-template-columns: repeat (6, 1fr);
+  grid-template-rows: repeat (6, 5vw);
   grid-gap: 15px;
     }
 
@@ -191,8 +191,8 @@ footer {
         position: fixed;
         bottom: 0;
         margin-bottom:0;
-        color: lightyellow;
-        background-color:lightcoral;
+        color: rgb(36, 16, 16);
+    background-color: rgb(192, 179, 179);
         width: 100%;
         height: auto;
         float: right;
