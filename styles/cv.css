@@ -22,7 +22,8 @@ display: grid;
 
 .navbar-left ul li a {
     transition: all 200ms ease-in-out;
-    color: rgb(109, 47, 47);
+    color: rgb(153, 34, 34);
+    font-size: 1.5em;
 }
 
 .navbar-left ul li a:hover {
@@ -31,7 +32,7 @@ color: blue;
 
 .navbar-left ul li a:hover:before, .navbar-right ul li a:hover:after{
     opacity: 1;
-    height: 3px;
+    height: 100px;
     width: 100%;
 }
 
@@ -49,11 +50,13 @@ display: grid;
 .navbar-right ul li{
     display: inline-block;
     list-style: none;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
 .navbar-right ul li a {
     transition: all 200ms ease-in-out;
+    color: rgb(206, 15, 15);
+    font-size: 1em;
 }
 
 .navbar-right ul li a:hover {
@@ -62,20 +65,25 @@ color: blue;
 
 .navbar-right ul li a:hover:before, .navbar-right ul li a:hover:after{
     opacity: 1;
-    height: 2px;
+    height: 50px;
     width: 100%;
 }
 
+body{
+    background-image: linear-gradient(105deg, rgb(243, 196, 196) 39%, rgb(68, 71, 71) 96%);
+    font-family: 'Yeon Sung', cursive;
+}
+
 a{
-    color: rgb(104, 75, 75);
+    color: rgb(153, 64, 64);
     text-decoration: none;
 }
-h1 {
-    text-align: center;
+h3 {   
     display: block;
+    color: rgb(136, 31, 31);
 }
-.p{
-    color: black;
+p{
+    color: rgb(153, 64, 64);
 }
 
 img{
@@ -86,35 +94,49 @@ img{
 
 .area_expertise{
     float: left;
-    padding: 15px 20px 10px 40px
+    padding: 15px 20px 10px 20px;
+}
+
+.area_expertise h3{
+    text-align: center;
+}
+
+.area_expertise ul li {
+    display: inline-block;
+    list-style: none;
+    
+    padding: 1em;
 }
 .work_experience {
     float: right;
-    padding: 35px 40px 10px 40px
+    padding: 15px 20px 10px 20px;
+    
 }
 .education{
     float: left;
-    padding: 35px 40px 10px 40px
+    padding: 15px 20px 10px 20px;
 }
 .interest{
     float: left;
-    padding: 35px 40px 10px 40px
+    padding: 15px 20px 10px 20px;
+    color: rgb(189, 18, 18);
 }
 .references{
     float: left;
-    padding: 35px 40px 10px 40px
+    padding: 15px 20px 10px 20px;
 }
+
 footer{
     position: fixed;
     bottom: 0;
     margin-bottom:0;
-    color: rgb(36, 16, 16);
+    color: rgb(179, 24, 24);
     background-color: rgb(192, 179, 179);
     width: 100%;
     height: auto;
     float: right;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.25em;
+    padding: 1px;
 }
-
 
