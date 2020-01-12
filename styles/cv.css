@@ -1,3 +1,4 @@
+/* from .nav-bar to h1, inclusing the footer similar codes to styles.css */
 .nav-bar {
     display: flex;
     height: 100;
@@ -68,64 +69,71 @@ color: blue;
     height: 50px;
     width: 100%;
 }
-
+/* the colour gradient code was inspiired from https://developer.mozilla.org/en-US/docs/
+Learn/CSS/Building_blocks/Backgrounds_and_borders- this showed me how to do it
+and i changed the code to make it what was morderned and eye appealing*/
+/*also, the morden font gotten from google and used here*/
 body{
     background-image: linear-gradient(105deg, rgb(243, 196, 196) 39%, rgb(68, 71, 71) 96%);
     font-family: 'Yeon Sung', cursive;
 }
-
+/*colour of social media logo and to prevent line on the header page*/
 a{
     color: rgb(153, 64, 64);
     text-decoration: none;
 }
+/*this is to center the title, display type and font colour*/
 h3 {   
     display: block;
     color: rgb(136, 31, 31);
 }
+/*font colour*/
 p{
     color: rgb(153, 64, 64);
 }
-
+/*image margine, style and sizing*/
 img{
     border-radius: 55%;
     float: left;
     padding-right: 2em;
 }
-
+/*position of the text container and spacing*/
 .area_expertise{
     float: left;
     padding: 15px 20px 10px 20px;
 }
-
+/*position of the text container and spacing*/
 .area_expertise h3{
     text-align: center;
 }
-
+/*position of the text container, styling and spacing*/
 .area_expertise ul li {
     display: inline-block;
     list-style: none;
-    
     padding: 1em;
 }
+/*position of the text container and spacing*/
 .work_experience {
     float: right;
     padding: 15px 20px 10px 20px;
-    
 }
+/*position of the text container and spacing*/
 .education{
     float: left;
     padding: 15px 20px 10px 20px;
 }
+/*position of the text container and spacing*/
 .interest{
     float: left;
     padding: 15px 20px 10px 20px;
     color: rgb(189, 18, 18);
 }
+/*position of the text container and spacing*/
 .references{
     float: left;
     padding: 15px 20px 10px 20px;
 }
-
+/*similar footer for portfolio and contact*/
 footer{
     position: fixed;
     bottom: 0;
