@@ -121,7 +121,7 @@ a{
 
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     margin-bottom:0;
     color:  rgb(36, 16, 16);
