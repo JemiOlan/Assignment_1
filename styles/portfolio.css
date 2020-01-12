@@ -186,7 +186,7 @@ hr {
     }
     
     .gallery-item:hover .middle {
-        opacity: 5;
+        opacity: 1;
         text-align: center;
     }
     
